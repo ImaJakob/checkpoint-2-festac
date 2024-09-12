@@ -83,18 +83,16 @@
             <h2>Contact</h2>
 
             <form action="submit-contact-form" method="post"> 
-                <label for="name">Name:</label>
+                <label for="name">Names:</label>
                 <input type="text" id="name" name="name" required><br>
                 <p>
                     <label for="email">Email:</label> 
-                    <input type="text" id="email" name="email" required><br>
+                    <input type="email" id="email" name="email" required><br>
                 </p>
                 
-                <p><label for="number">Number:</label>
-                  <input type="number" id="number" name="number" required><br>
-                </p>
                 <label for="message">Message:</label>
-                <textarea name="Message" id="message" rows="4" cols="30" required></textarea>
+                <textarea name="Message" id="message" rows="3" cols="20" required></textarea><br>
+                <button type="submit">Submit</button>
             </form>
 
         </div>
